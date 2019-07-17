@@ -9,7 +9,33 @@ import {
   } from 'react-native';
 
   const Header = () => {
+      const { textStyle , viewStyle } = styles;
       return(
-          <Text>Albums!</Text>
+        <View style= {viewStyle}>
+            <Text style = {textStyle}>Albums!</Text>
+        </View>
+          
       );
   }
+
+  const styles = {
+      viewStyle: {
+        backgroundColor:'#F8F8F8',
+        justifyContent:'center',
+        alignItems:'center',
+        padding:15,
+        height:60,
+        shadowColor:'#000',
+        shadowOffset:{ width:0, height:2},
+        shadowOpacity: 0.8,
+      },
+      textStyle: { 
+          fontSize:20
+      }
+  };
+
+
+
+
+
+export default Header;

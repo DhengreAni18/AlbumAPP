@@ -17,7 +17,10 @@ const styles = {
         backgroundColor: '#fff',
         justifyContent: 'flex-start',
         flexDirection: 'row',
-        position: 'relative'
+        position: 'relative',
+         font-size: 12px;
+          background: url('drums.jpg') top center;
+          background-size: 80%;
     }
 
 };
